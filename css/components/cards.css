@@ -1,0 +1,36 @@
+.card {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    flex-basis: 250px;
+    flex-grow: 1;
+    margin: 10px;
+    background-color: white;
+    box-shadow: green 0px 20px 30px -10px;
+}
+
+.card img {
+    width: 150px;
+    height: 150px;
+    border-radius: 20px;
+}
+
+.card h3 {
+    flex-grow: 1;
+    padding-left: 20px;
+    color: lightgreen
+}
+
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+#h2-team {
+    padding: 20px;
+    color: darkgreen
+}
